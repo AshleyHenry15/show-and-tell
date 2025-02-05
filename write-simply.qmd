@@ -1,0 +1,263 @@
+---
+title: "Write Simply"
+subtitle: "Why Less is More in Technical Writing"
+format:
+  revealjs:
+    slide-number: true
+    transition: slide
+    chalkboard: 
+      buttons: false
+    preview-links: auto
+---
+
+## Hello, I'm Ashley!
+
+![](images/map.png){.absolute .fragment top=100 left=0 width="450" height="400"}
+
+![](images/family.jpg){.absolute .fragment top=150 right=200 width="333" height="500"}
+
+![](images/dogs.png){.absolute .fragment top=475 right=300 width="400" height="200"}
+
+![](images/instagram.png){.absolute .fragment top=100 left=100 width="296" height="600"}
+
+::: {.notes}
+- I am originally from upstate NY
+- I currently live in southeastern PA with my husband, two children, and two dogs
+- My hobbies include DIY home-improvement projects that I give up on around 93% completion
+:::
+
+## Professional stuff...
+
+::: {.fragment .fade-in}
+I've been writing, editing, and maintaining technical content for over 13 years.
+:::
+
+::: {.incremental .fade-up}
+- Years at Posit: 5+
+- I am the Lead Techincal Writer for Pro Product documentation
+- <i class="fas fa-user"></i> + <i class="fas fa-user"></i> = <i class="fas fa-user"></i><i class="fas fa-user"></i>
+:::
+
+![](images/sarah.png){.absolute .fragment top=350 right=300 width="350" height="300"}
+
+::: {.notes}
+- I've worked in both the public and private sectors and was introduced to technical writing while serving the USN as an IT.
+
+- I was the first "official" technical writer hired - we've since doubled in size! Hi Sarah!
+:::
+
+## What is the role of a technical writer?
+
+::: {.fragment .fade-in-then-semi-out}
+Clearly communicate and accurately explain complex information to a user.
+:::
+
+:::: {.columns}
+
+::: {.column width="40%" .fragment}
+We prioritize:
+
+::: {.incremental .fade-up}
+- Simplicity
+- Clarity
+- Usability
+:::
+:::
+
+::: {.column width="60%" .fragment}
+Because:
+
+::: {.incremental .fade-up}
+- It improves comprehension 
+- Reduces cognitive load
+- Increases the amount of information retained
+:::
+:::
+::::
+
+::: {.fragment .fade-up}
+And most importantly — it helps to provide a positive user experience!
+:::
+
+## Ok! Let's segue into the good stuff
+
+![](images/segue.png){fig-align="center" height="500"}
+
+::: {.fragment .absolute top=600 left=250 right=auto }
+Why should we write simply?
+:::
+
+::: {.fragment .absolute left=30 top=70}
+![](images/shall-we.gif){width=1100 height=500}
+:::
+
+:::{.notes}
+If you've read a page or a sentence and by the end, you have no idea what you just read and then you read it again and again until you kind of understand the context before moving on. There is a good chance that the information was both complex and not written simply...
+:::
+
+
+## The Forgetting Curve
+
+::: {.fragment .fade-in-then-semi-out}
+The Forgetting Curve theory, introduced by Hermann Ebbinghaus, hypothesized that you forget:
+:::
+
+::: {.incremental .fade-up}
+- 50% of all new information in a day
+- 90% of all new information within a week
+
+![](images/forgetting-curve.png){.absolute .fragment top=325 right=200 width="697" height="375"}
+:::
+
+::: {.notes}
+- 50% of all new information in a day and 90% of all new information within a week when no attempt to retain the information is made
+- Rapid loss of information early on - slows over time...
+- Things that affect the curve include difficulty of the learned material (e.g., how meaningful it is) and  its representation. If you don't use and  apply the information - you are more likely to forget it. If you don't use it...you lose it.
+:::
+
+## Cognitive Load Theory
+
+::: {.fragment .fade-in-then-semi-out}
+The Cognitive Load Theory, introduced by John Sweller, hypothesized that the amount of working memory resources used.
+:::
+
+::: {.fragment }
+![](images/ctl.png){.absolute .fragment width="939" height="500"}
+:::
+
+:::{.notes}
+Essentially, working memory is extremely limited and becomes easily overloaded when faced with complex, unnecessary, or poorly organized information.
+:::
+
+## What does this mean for us?
+
+![](images/book-looking.gif){.absolute .fragment height="600" left="200"}
+
+::: {.notes}
+- Our users aren’t likely to retain much of the information we provide in the guides. 
+- They will likely return to the material, often, to reference the same information repeatedly.
+:::
+
+## Things to avoid...
+
+![](images/word-soup.png){.absolute .fragment top=150 left=0 width="350" height="300"}
+
+![](images/no.png){.absolute .fragment top=150 left=0 width="350" height="300"}
+
+::: {.incremental .fade-in .absolute top=250 left=500}
+- High word count
+- Long sentences & paragraphs
+- Compound sentences
+- Redundant, unneeded, excessive, superfluous words
+:::
+
+::: {.fragment .fade-in .absolute top=250 left=500}
+![](images/no.png){width="450" height="400"}
+:::
+
+::: {.notes}
+- Word Soup: Jumbled, collection of words, that either has no meaning or the meaning is unclear.
+- Avoid long paragraphs and sentences, high word count, and fluffs.
+:::
+
+## Do this!
+
+::: {.fragment .fade-in-then-out .absolute top=75 left=250}
+![](images/grade-12.png){width="600" height="443"}
+
+*Target: 12th grade reading level*
+:::
+
+::: {.fragment .fade-in-then-out .absolute top=75 left=250}
+![](images/focused.gif){width="600" height="400"}
+
+*Focused and concise*
+:::
+
+::: {.fragment .fade-in-then-out .absolute top=75 left=250}
+![](images/skim.png){width="600" height="400"}
+:::
+
+::: {.fragment .fade-in-then-out .absolute top=50 left=150}
+![](images/skim-content.png){width="1000"}
+:::
+
+::: {.fragment .fade-in-then-out .absolute top=50 left=150}
+![](images/skim-content-2.png){width="1000"}
+:::
+
+
+::: {.fragment .fade-in-then-out .absolute top=50 left=125}
+![](images/style-guide.png){width="775" height="618"}
+:::
+
+::: {.notes}
+- Aim to write at a 12th-grade reading level (essentially guarentees that our readers with high school diplomas, GEDs, and college degrees will be able read and absorb content)
+- Focused and concise - this isn't a short-story about user provisioning
+- Write the Docs has Principles for great content and they cover "Skimmable content". This is very applicable to our docs so intentionally structure content to allow users to quickly identify the content that they need and skip over the content that they don't
+- Consistent application of text decoration and formatting according to the style guide. If we use bolded words to indicate user action or quotes to indicate user input - then it allows our users to easily scan and identify procedures requiring user input
+- FOLLOW THE POSIT PPD STYLE GUIDE
+:::
+
+
+## ...because
+
+:::{.fragment .fade-in-then-semi-out}
+- Makes content easier to find and reference 
+:::
+:::{.fragment .fade-in-then-semi-out}
+- Increases the likelihood that the content will be retained
+:::
+:::{.fragment .fade-in-then-semi-out}
+- Improves search and SEO
+:::
+
+::: {.notes}
+We do all of these things for many reasons, but a few reasons are
+:::
+
+## Check yourself
+
+::: {.fragment .fade-in}
+Flesch Kincaid Grade Level + Flesch Reading Ease
+:::
+
+::: {.fragment .fade-up}
+![](images/test-example.mp4)
+:::
+
+::: {.notes}
+- Use readability tests
+- We have readability tests linked from the Self-Editing Checklist/Style Guide & Best Practices
+:::
+
+## Check yourself cont..."
+
+::: {.fragment .fade-in}
+ChatGPT Prompts
+:::
+
+::: {.fragment .fade-in}
+![](images/chatgpt.png)
+:::
+
+::: {.notes}
+- ChatGPT Prompts
+:::
+
+## Resources
+
+- [Posit Documentation Style Guide](https://positpbc.atlassian.net/wiki/spaces/ENG/pages/594608243/Style+Guide) (Confluence Engineering space)
+- [Readability Test](https://www.webfx.com/tools/read-able/)
+- [Flesch Reading Ease and the Flesch Kincaid Grade Level
+](https://readable.com/readability/flesch-reading-ease-flesch-kincaid-grade-level/)
+- [Write the Docs](https://www.writethedocs.org/)
+- [The Elements of Style](https://en.wikipedia.org/wiki/The_Elements_of_Style)
+- [MMoS](https://learn.microsoft.com/en-us/style-guide/welcome/)
+
+
+::: {.notes}
+I didn't expect to make it this far... fun fact... I have signed up for, been chosen for, and bailed on Show and Tell almost every single year...
+
+I promised Hadley that I would follow through this year and I pledge to never sign up again! 
+:::

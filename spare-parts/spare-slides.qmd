@@ -1,0 +1,10 @@
+Spare slides
+
+## An outrage!!!
+
+![](images/outrage.gif){.absolute .fragment width="900"}
+
+::: {.notes}
+It's important to remember, this chat is geared towards our product guides. However, I am trying to harness some of your writing talent and power because when you write simply, it provides a better user experience.
+:::
+
