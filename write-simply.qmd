@@ -8,6 +8,8 @@ format:
     chalkboard: 
       buttons: false
     preview-links: auto
+    embed-resources: true
+
 ---
 
 ## Hello, I'm Ashley!
