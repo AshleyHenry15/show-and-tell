@@ -118,7 +118,7 @@ The Forgetting Curve theory, introduced by Hermann Ebbinghaus, hypothesized that
 ## Cognitive Load Theory
 
 ::: {.fragment .fade-in-then-semi-out}
-The Cognitive Load Theory, introduced by John Sweller, hypothesized that the amount of working memory resources used.
+The Cognitive Load Theory, introduced by John Sweller, hypothesized that the amount of working memory resources used...
 :::
 
 ::: {.fragment }
